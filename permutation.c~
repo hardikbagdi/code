@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+
+char* p= "hardik";
+char* q="dikhar";
+int x= strstr(p,q);
+printf("%d",x);
+return 0;}
